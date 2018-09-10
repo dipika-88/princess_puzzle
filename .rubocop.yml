@@ -1,0 +1,30 @@
+AllCops:
+  TargetRubyVersion: 2.5
+Metrics/LineLength:
+  Max: 120
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context']
+Metrics/MethodLength:
+  Max: 50
+Metrics/CyclomaticComplexity:
+  Enabled: false  
+Metrics/PerceivedComplexity:
+  Enabled: false   
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: aligned
+Style/AndOr:
+  EnforcedStyle: conditionals
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Style/LambdaCall:
+  EnforcedStyle: braces  
+Metrics/AbcSize:
+  Enabled: false  
